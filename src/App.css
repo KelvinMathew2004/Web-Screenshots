@@ -91,3 +91,16 @@ input {
 .gallery-screenshot {
   border-radius: 8px;
 }
+
+.quota {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 10px;
+  color: black;
+  font-weight: bold;
+  background-color: lightblue;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 0.9em;
+}
