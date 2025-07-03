@@ -105,20 +105,20 @@ function App() {
       <p>
           https://api.apiflash.com/v1/urltoimage?access_key=ACCESS_KEY    
           <br></br>
-          &url={inputs.url} <br></br>
-          &format={inputs.format} <br></br>
-          &width={inputs.width}
+          Url = {inputs.url} <br></br>
+          Format = {inputs.format} <br></br>
+          Width = {inputs.width}
           <br></br>
-          &height={inputs.height}
+          Height = {inputs.height}
           <br></br>
-          &no_cookie_banners={inputs.no_cookie_banners}
+          No cookie banners = {inputs.no_cookie_banners}
           <br></br>
-          &no_ads={inputs.no_ads}
+          No ads = {inputs.no_ads}
           <br></br>
       </p>
       </div>
       <br></br>
-      
+
       <div className="container">
         <Gallery images={prevImages} />
       </div>
