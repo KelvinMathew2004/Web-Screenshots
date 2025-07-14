@@ -40,16 +40,6 @@ Submit the form and instantly get a clean screenshot, ready to download or previ
 
 ---
 
-## 📂 Project Structure
-src/
-├── components/
-│   └── APIForm.jsx
-├── App.jsx
-├── App.css
-└── main.jsx
-
----
-
 ## ✨ Preview
 
 > [https://web-screenshots.netlify.app/](https://web-screenshots.netlify.app/)
