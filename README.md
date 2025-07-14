@@ -1,12 +1,61 @@
-# React + Vite
+# 📸 Web Screenshot Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React web app allows users to generate high-quality screenshots of any public website using the [ApiFlash API](https://apiflash.com/). Customize parameters like format, resolution, and ad/cookie banner visibility — then instantly preview your screenshot and view your screenshot history.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 Overview
 
-## Expanding the ESLint configuration
+Need a reliable way to capture a clean, styled screenshot of a website? This app offers a sleek interface to generate those screenshots on demand. Built with flexibility in mind, users can modify key attributes of the request and watch the screenshot update accordingly.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎯 Features
+
+### ✅ Core Features
+
+- 🔧 Add and customize **at least three parameters** (e.g., image format, resolution, cookie/ad settings)
+- 🖼 Display the **resulting screenshot** on the page
+- 🗂 Keep a **history of all screenshots** queried in the current session
+
+### 💡 Stretch Feature
+
+- 📊 Show whether the app has **reached the maximum number of allowed queries**
+
+---
+
+## 🛠️ Built With
+
+- **React** (Vite)
+- **JavaScript** (ES6+)
+- **HTML/CSS**
+- **ApiFlash API**
+
+---
+
+## 📸 Example Use
+
+> _"I want a 1920x1080 JPEG of example.com without ads or cookie banners."_  
+Submit the form and instantly get a clean screenshot, ready to download or preview.
+
+---
+
+## 📂 Project Structure
+src/
+├── components/
+│   └── APIForm.jsx
+├── App.jsx
+├── App.css
+└── main.jsx
+
+---
+
+## ✨ Preview
+
+> [https://web-screenshots.netlify.app/](https://web-screenshots.netlify.app/)
+
+---
+
+## 📄 License
+
+This project is for educational and demonstration purposes.
